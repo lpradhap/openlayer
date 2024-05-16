@@ -1,0 +1,7 @@
+<div class="map-info-wrapper" *ngIf="isVisible">
+    <button class="close-btn" (click)="handleClose()">X</button>
+    <h2>Trip Detail</h2>
+    <div class="row"><label>Year</label> <span>{{mapProps?.Year}}</span></div>
+    <div class="row"><label>Summary</label> <span>{{mapProps?.Desc}}</span></div>
+    <div class="row"> <img  [src]="mapProps?.Image"  /></div>
+</div>

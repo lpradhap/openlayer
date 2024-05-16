@@ -1,0 +1,40 @@
+.map-info-wrapper {
+    background: #000;
+    width: 350px;
+    transition: all 0.3s;
+    position: relative;
+
+    padding: 0px 20px 20px;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.close-btn {
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.row {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ffffff83;
+    font-size: 14px;
+    line-height: 1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100px;
+}
